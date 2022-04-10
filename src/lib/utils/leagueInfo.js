@@ -25,11 +25,11 @@ https://github.com/nmelhado/league-page/blob/master/TRAINING_WHEELS.md#ii-adding
 export const managers = [
     {
       "roster": 1,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "Josh F",
-      "tookOver": 2019, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+      "name": "Josh (Commissioner)",
+      "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Maine", // (optional)
       "bio": "The Commissioner to the Gridiron Gurus.  Rules with an Iron Fist. <p>All hail the Supreme Leader!",
-      "photo": "/managers/bigfitty.jpg", // square ratio recommended (no larger than 500x500)
+      "photo": "/managers/bigfitty.png", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "den", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
