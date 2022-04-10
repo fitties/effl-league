@@ -28,7 +28,7 @@ export const managers = [
       "name": "Josh F",
       "tookOver": 2019, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Maine", // (optional)
-      "bio": "The Commissioner to the Gridiron Gurus.  Rules with an Iron Fist.  All hail the Supreme Leader!",
+      "bio": "The Commissioner to the Gridiron Gurus.  Rules with an Iron Fist. <p>All hail the Supreme Leader!",
       "photo": "/managers/bigfitty.jpg", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "den", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
